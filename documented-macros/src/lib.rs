@@ -1,7 +1,7 @@
 mod attr_impl;
 mod config;
 mod derive_impl;
-pub(crate) mod util;
+pub mod util;
 
 use proc_macro::TokenStream;
 use syn::{parse_macro_input, Error};
